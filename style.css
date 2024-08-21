@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #B6ED94;
+}
+
+
+header h1 {
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+       
+}
+
+header h1 img {
+    height: 40px;
+    margin-right: 10px;
+    
+}
+
+
+.navbar-nav {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+    
+    
+}
+
+header nav ul li a:hover {
+    color: #76e296;
+    
+}
+
+main h2 {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    
+}
+
+.content .card {
+    background-color: #6FD92E;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 20px;
+    text-align: center;
+    font-style: italic;
+    
+    
+}
+
+.content .card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.content .card ul {
+    padding-left: 1rem;
+    
+}
+
+.content .card ul li {
+    list-style-type: disc;
+    margin-bottom: 10px;
+}
+
+.attention .card {
+    background-color: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 0.25rem;
+    text-align: justify;
+    font-style: italic;
+}
+
+.attention .card h3 {
+    font-size: 1.1rem;
+    color: #856404;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.attention .card ul {
+    padding-left: 1rem;
+}
+
+.attention .card ul li {
+    list-style-type: disc;
+    margin-bottom: 10px;
+
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+    text-align: center;
+    padding: 0;
+    background-attachment: fixed;
+}
+
+
+.content .card-title {
+    background-color: #d7c1e0; 
+    padding: 20px; 
+}
+
+#DicasSobreEconomia h2 {
+    font-size: 1.5rem;
+    font-weight: bold; 
+   
+}
+
+#InformativosSobreRenda h2 {
+    font-size: 1.5rem; 
+    font-weight: bold;  
+}
+
+#EspelhoRenda h2 {
+    font-size: 1.5rem; 
+    font-weight: bold; 
+}
+
+#Contato h2 {
+    font-size: 1.5rem;
+    font-weight: bold; 
+}
+
+.modal-content {
+    background-color: #fefefe; /* Cor de fundo do modal */
+    margin: 10% auto; /* Centraliza o modal verticalmente */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Define a largura do modal */
+}
+
+.close {
+    color: #aaa;
+    right: 10;
+    position:absolute;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn-success, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    
+    background-color: #c4930c;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#resultado, .alert {
+
+    background-color: #d7c1e0;
+    border: none;
+    color:#333
+} 
+
+.accordion-button {
+    background-color: #c4930c;
+    color: #333;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.navbar-toggler{
+    background-color: #B6ED94;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+}

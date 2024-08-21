@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GranaGuru</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="./images/5899792.png" alt="Ícone de Dólar" style="height: 40px; vertical-align: middle;">
+                GranaGuru
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#DicasSobreEconomia">Dicas Sobre Economia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#InformativosSobreRenda">Informativos Sobre Renda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#EspelhoRenda">Espelho da Renda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Contato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <main class="container mt-4">
+        <div class="text-center mb-4">
+            <h2>Bem vindo ao GranaGuru, aqui você encontra informações úteis sobre economia e dicas de como alocar seu
+                dinheiro de maneira rápida e fácil...</h2>
+        </div>
+
+        <section id="DicasSobreEconomia" class="content mt-5 text-center">
+            <h2>Dicas Sobre Economia</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Economize em Contas Fixas</h3>
+                            <ul>
+                                <p>Reveja suas contas fixas, como energia elétrica e água, e veja onde pode economizar.
+                                </p>
+                            </ul>
+                            <img src="./images/image3.png" alt="Ícone de conta" class="img-fluid mt-5">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Evite Compras Impulsivas</h3>
+                            <ul>
+                                <p>Antes de comprar algo, pergunte-se se você realmente precisa daquilo.</p>
+                            </ul>
+                            <img src="./images/image2.png" alt="Ícone de Carrinho de Compras" class="img-fluid mt-5">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Faça um Orçamento Mensal</h3>
+                            <ul>
+                                <p>Planeje suas despesas e receitas para o mês. Isso ajuda a evitar gastos
+                                    desnecessários.</p>
+                            </ul>
+                            <img src="./images/image.png" alt="Ícone de Dinheiro" class="img-fluid mt-5">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="attention mt-5">
+            <div class="card">
+                <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <h3 class="card-title text-danger">ATENÇÃO!!!</h3>
+                        <img src="./images/image4.png" alt="Ícone de Atenção" class="img-fluid ml-3"
+                            style="width: 100px; height: auto; ">
+                    </div>
+                    <p>É preciso ficar atento, e não cometer esses erros básicos</p>
+                    <ul>
+                        <li>Gastar Mais do que Ganha;</li>
+                        <li>Não Ter um Fundo de Emergência;</li>
+                        <li>Não Fazer um Orçamento</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="InformativosSobreRenda" class="content mt-5 text-center">
+            <h2>Informativos Sobre Renda</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Renda Fixa</h3>
+                            <p>Renda fixa é um tipo de investimento onde você empresta dinheiro para uma instituição
+                                (como o governo ou uma empresa) em troca de juros.</p>
+                            <img src="./images/image5.png" alt="Ícone de Gráfico" class="img-fluid mt-5">
+                            <a href="#InformativosSobreRenda" class="btn-saiba-mais btn btn-success">Saiba Mais</a>
+                            <div id="modal0" class="modal">
+                                <div class="modal-content">
+                                    <span class="close" onclick="fecharModal()">&times;</span>
+                                    <h2>Renda Fixa</h2>
+                                    <p> Renda fixa é como um acordo de empréstimo onde você empresta dinheiro para
+                                        alguém (pode ser um banco, empresa ou governo) e espera receber de volta o valor
+                                        com juros no futuro. Esses juros já são definidos no momento do empréstimo,
+                                        então você sabe o quanto vai ganhar desde o início.
+                                        É como se você estivesse "emprestando" seu dinheiro e esperando ele voltar para
+                                        casa com alguns amiguinhos a mais (os juros). Mas, assim como na vida real, nem
+                                        tudo são flores. Mesmo sendo considerados mais seguros do que alguns outros
+                                        tipos de investimentos, como ações, ainda têm seus riscos. Por exemplo, se a
+                                        empresa ou governo que pegou seu dinheiro der um calote, você pode perder parte
+                                        do seu investimento. Então, é sempre bom dar uma olhadinha nos riscos antes de
+                                        se aventurar nesse mundo da renda fixa!
+                                        Quando falamos de renda fixa, é importante entender os indicadores que
+                                        influenciam os rendimentos. A Selic, por exemplo, é como a "chefona" das taxas
+                                        de juros no Brasil. Ela é definida pelo Banco Central e serve de base para
+                                        muitas operações financeiras, inclusive para remunerar quem investe em títulos
+                                        do governo.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Renda Variável</h3>
+                            <p>Renda variável é um tipo de investimento onde os retornos não são fixos e podem variar de
+                                acordo com o desempenho do mercado.</p>
+                            <img src="./images/image6.png" alt="Ícone de Gráfico" class="img-fluid mt-5">
+                            <a href="#InformativosSobreRenda" class="btn-saiba-mais btn btn-success">Saiba Mais</a>
+                            <div id="modal1" class="modal">
+                                <div class="modal-content">
+                                    <span class="close" onclick="fecharModal()">&times;</span>
+                                    <h2>Renda Variável</h2>
+                                    <p> Renda variável é como um jogo de montanha-russa no mundo dos investimentos. Ao
+                                        contrário da renda fixa, onde o retorno é previsível, na renda variável tudo
+                                        pode mudar conforme as condições do mercado.
+                                        Pense em comprar ações de uma empresa. Você está apostando na valorização dessas
+                                        ações ao longo do tempo, mas não há garantias. Os preços podem subir, descendo
+                                        e, em alguns casos, até despencar. Não dá para saber com certeza o que vai
+                                        acontecer.
+                                        Enquanto na renda fixa você sabe exatamente o que vai receber, na renda variável
+                                        você está sujeito às flutuações do mercado. É como um passeio emocionante, cheio
+                                        de altos e baixos, mas que pode trazer grandes recompensas para quem está
+                                        disposto a correr o risco.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title
+                            ">Tesouro Selic</h3>
+                            <p>O Tesouro Selic é um título público emitido pelo governo brasileiro, considerado uma
+                                forma de investimento em renda fixa. </p>
+                            <img src="./images/image7.png" alt="Ícone de Gráfico" class="img-fluid mt-5">
+                            <a href="#InformativosSobreRenda" class="btn-saiba-mais btn btn-success">Saiba Mais</a>
+                            <div id="modal2" class="modal">
+
+                                <div class="modal-content">
+                                    <span class="close" onclick="fecharModal()">&times;</span>
+                                    <h2>Tesouro Selic</h2>
+                                    <p> O Tesouro Selic é um título público de renda fixa emitido pelo Tesouro
+                                        Nacional,
+                                        sendo uma das opções mais populares para investidores que buscam baixo risco
+                                        e
+                                        liquidez diária. Ele é indexado à taxa Selic, a taxa básica de juros da
+                                        economia
+                                        brasileira, o que significa que seu rendimento está diretamente relacionado
+                                        às
+                                        variações dessa taxa.
+                                        O principal atrativo do Tesouro Selic é sua baixa volatilidade e garantia de
+                                        retorno próximo à variação da Selic, tornando-o uma opção interessante para
+                                        proteção contra a inflação no curto prazo. Além disso, ele oferece liquidez
+                                        diária, o que significa que você pode resgatar seu investimento a qualquer
+                                        momento, sem perder rentabilidade.
+                                        Por ser um investimento de baixo risco e fácil acesso, o Tesouro Selic é
+                                        recomendado para a reserva de emergência e para investidores que buscam
+                                        preservar o capital com segurança e liquidez. É importante ressaltar que,
+                                        embora
+                                        seja considerado seguro, o Tesouro Selic ainda está sujeito a riscos, como o
+                                        risco de crédito do governo e o risco de mercado, que podem afetar seu
+                                        retorno.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="EspelhoRenda" class="content text-center">
+            <h2>Espelho da Renda</h2>
+            <div class="card">
+                <h3 class="card-title justify-content-between">Calcule seus Gastos Mensais</h3>
+                <p>Para fazermos o cálculo, usaremos o método 50-30-20, onde:</p>
+
+                <div class="container">
+                    <div class="row align-items-center">
+                        
+                        <div class="col-md-6 "">
+                            <div class="justify-content-between">
+                                <div class="card-body text-center">
+                                    <div id="accordionExample" class="accordion">
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button" 
+                                                    data-toggle="collapse" data-target="#collapseOne" 
+                                                    aria-expanded="false" aria-controls="collapseOne">
+                                                    50% - Gastos Essenciais
+                                                </button>
+                                            </h2>
+                                            <div id="collapseOne" class="accordion-collapse collapse"
+                                                aria-labelledby="headingOne" data-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Gastos essenciais são aqueles que você não pode viver sem,
+                                                    como a moradia, alimentação, transporte, saúde e educação. São as
+                                                    despesas que
+                                                    você precisa pagar para manter sua qualidade de vida e a de sua
+                                                    família. Por
+                                                    isso, é importante priorizar esses gastos e garantir que eles
+                                                    estejam sempre em
+                                                    dia.
+                                                    Se você não consegue pagar suas contas essenciais, é sinal de que
+                                                    algo está
+                                                    errado e você precisa rever suas prioridades financeiras.
+                                                    <p><strong>Por Exemplo: Aluguel, Condomínio, Água, Luz, Internet,
+                                                            Alimentação,
+                                                            Transporte, Plano de Saúde, Educação, etc.</strong></p>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button collapsed" type="button"
+                                                    data-toggle="collapse" data-target="#collapseTwo"
+                                                    aria-expanded="false" aria-controls="collapseTwo">
+                                                    30% - Gastos Pessoais
+                                                </button>
+                                            </h2>
+                                            <div id="collapseTwo" class="accordion-collapse collapse"
+                                                aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Gastos pessoais são aqueles que você faz para manter seu bem-estar e
+                                                    qualidade
+                                                    de vida, mas que não são essenciais para sua sobrevivência. São as
+                                                    despesas que
+                                                    você tem liberdade para escolher, como lazer, viagens, roupas,
+                                                    eletrônicos,
+                                                    entre outros.
+                                                    É importante lembrar que os gastos pessoais devem ser planejados e
+                                                    controlados
+                                                    para não comprometer suas finanças. Se você gasta mais do que ganha
+                                                    com
+                                                    despesas pessoais, é sinal de que está vivendo acima de suas
+                                                    possibilidades e
+                                                    precisa rever seus hábitos de consumo.
+                                                    <p><strong>Por Exemplo: Lazer, Viagens, Roupas, Eletrônicos,
+                                                            etc.</strong></p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header">
+                                                <button class="accordion-button" type="button" data-toggle="collapse"
+                                                    data-target="#collapseThree" aria-expanded="false"
+                                                    aria-controls="collapseThree">
+                                                    20% - Poupar/Investir
+                                                </button>
+                                            </h2>
+                                            <div id="collapseThree" class="accordion-collapse collapse"
+                                                aria-labelledby="headingThree" data-parent="#accordionExample">
+                                                <div class="accordion-body">
+                                                    Poupar ou investir é uma prática fundamental para garantir sua
+                                                    segurança,
+                                                    estabilidade financeira e realizar seus objetivos de curto, médio e
+                                                    longo prazo.
+                                                    Logo após pagar suas contas essenciais e gastos pessoais, reserve
+                                                    20% da sua
+                                                    renda para poupar ou investir.
+                                                    Poupar é guardar dinheiro para emergências, imprevistos e objetivos
+                                                    de curto
+                                                    prazo, como viagens, compras e reformas.
+                                                    Já investir é aplicar seu dinheiro em ativos financeiros, como
+                                                    ações, títulos
+                                                    públicos e fundos de investimento, com o objetivo de obter
+                                                    rendimentos e fazer
+                                                    seu patrimônio crescer ao longo do tempo.
+                                                    <p><strong>Atenção: Antes de investir, é importante estudar e
+                                                            entender o mercado
+                                                            financeiro, os riscos e as oportunidades de cada tipo de
+                                                            investimento.</strong></p>
+                                                    </strong></p>
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="./images/image8.png" alt="Gráfico 50-30-20" class="img-fluid mt-3">
+                        </div>
+                    </div>
+                    
+                </div>
+                
+
+            </div>
+        </section>
+
+        <section id="" class="content mt-5">
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title">Renda Mensal</h3>
+                            <p>Informe sua renda mensal:</p>
+                            <form action="calcular.php" method="post">
+                                <div class="form-group
+                                ">
+                                    <label for="renda">Renda Mensal:</label>
+                                    <input type="number" min="0" name="renda" id="renda" class="form-control" required>
+                                </div>
+                                <button type="submit" class="btn btn-success">Calcular</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title
+                            ">Resultado</h3>
+                            <p>O resultado do cálculo será exibido aqui:</p>
+                            <div id="resultado" class="alert alert-info my-5">
+                                <div class="alert alert-info my-5">
+                                    <p>Gastos Essenciais: <span id="gastosEssenciais">0,00</span></p>
+                                    <p>Gastos Pessoais: <span id="gastosPessoais">0,00</span></p>
+                                    <p>Poupar/Investir: <span id="pouparInvestir">0,00</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="Contato" class="content mt-5 text-center">
+            <h2>Contato</h2>
+            <div class="row">
+                <div class="col-md-12 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3 class="card-title p-4">Conheça a equipe de desenvolvimento</h3>
+                            <ul>
+                                <p>Henrique Benedicto Costa</p>
+                                <p>Leandro de Deus Fração</p>
+                                <p>Ricardo Moraes</p>
+                                <p>Thais Andrade</p>
+                                <p>Wanderson Ribeiro</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="bg-light py-3 mt-5 w-full">
+        <div class="container text-center">
+            <p>&copy; 2023 GranaGuru</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="funcoes.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
